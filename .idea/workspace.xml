@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09ff8894-9f48-4088-8b3f-1b38f94452da" name="Changes" comment="add Recipe model with fields for title, description, instructions, ingredients, and timestamps">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="09ff8894-9f48-4088-8b3f-1b38f94452da" name="Changes" comment="add initial migration for Recipe and Category models">
+      <change beforePath="$PROJECT_DIR$/recipe/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Django Server.3.executor": "Run",
+    "Django tests.Test: recipe.tests.CategoryModelTest.executor": "Run",
+    "Django tests.Test: recipe.tests.RecipeModelTest.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
@@ -62,7 +62,49 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django tests.Test: recipe.tests.RecipeModelTest">
+    <configuration name="Test: recipe.tests.CategoryModelTest" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="recipe.tests.CategoryModelTest" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: recipe.tests.RecipeModelTest" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="recipe.tests.RecipeModelTest" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="3" type="Python.DjangoServer" factoryName="Django server">
       <module name="3" />
       <option name="ENV_FILES" value="" />
@@ -89,6 +131,17 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django Server.3" />
+      <item itemvalue="Django tests.Test: recipe.tests.CategoryModelTest" />
+      <item itemvalue="Django tests.Test: recipe.tests.RecipeModelTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: recipe.tests.RecipeModelTest" />
+        <item itemvalue="Django tests.Test: recipe.tests.CategoryModelTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -106,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747819088243</updated>
-      <workItem from="1747819089364" duration="2525000" />
+      <workItem from="1747819089364" duration="2893000" />
     </task>
     <task id="LOCAL-00001" summary="initialize Django project with basic structure and settings">
       <option name="closed" value="true" />
@@ -124,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747819858934</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add initial migration for Recipe and Category models">
+      <option name="closed" value="true" />
+      <created>1747821917698</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747821917698</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +194,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialize Django project with basic structure and settings" />
     <MESSAGE value="add Recipe model with fields for title, description, instructions, ingredients, and timestamps" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Recipe model with fields for title, description, instructions, ingredients, and timestamps" />
+    <MESSAGE value="add initial migration for Recipe and Category models" />
+    <option name="LAST_COMMIT_MESSAGE" value="add initial migration for Recipe and Category models" />
   </component>
 </project>
