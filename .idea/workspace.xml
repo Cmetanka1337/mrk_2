@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09ff8894-9f48-4088-8b3f-1b38f94452da" name="Changes" comment="add initial migration for Recipe and Category models">
-      <change beforePath="$PROJECT_DIR$/recipe/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/tests.py" afterDir="false" />
+    <list default="true" id="09ff8894-9f48-4088-8b3f-1b38f94452da" name="Changes" comment="add tests for Category and Recipe models">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_recipe/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_recipe/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Django tests.Test: recipe.tests.RecipeModelTest">
+  <component name="RunManager" selected="Django Server.3">
     <configuration name="Test: recipe.tests.CategoryModelTest" type="DjangoTestsConfigurationType" temporary="true">
       <module name="3" />
       <option name="ENV_FILES" value="" />
@@ -159,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747819088243</updated>
-      <workItem from="1747819089364" duration="2893000" />
+      <workItem from="1747819089364" duration="3555000" />
     </task>
     <task id="LOCAL-00001" summary="initialize Django project with basic structure and settings">
       <option name="closed" value="true" />
@@ -185,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747821917698</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add tests for Category and Recipe models">
+      <option name="closed" value="true" />
+      <created>1747822024978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747822024978</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +206,11 @@
     <MESSAGE value="initialize Django project with basic structure and settings" />
     <MESSAGE value="add Recipe model with fields for title, description, instructions, ingredients, and timestamps" />
     <MESSAGE value="add initial migration for Recipe and Category models" />
-    <option name="LAST_COMMIT_MESSAGE" value="add initial migration for Recipe and Category models" />
+    <MESSAGE value="add tests for Category and Recipe models" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests for Category and Recipe models" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/3$Test__recipe_tests_RecipeModelTest.coverage" NAME="Test: recipe.tests.RecipeModelTest Coverage Results" MODIFIED="1747822120535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/3$Test__recipe_tests_CategoryModelTest.coverage" NAME="Test: recipe.tests.CategoryModelTest Coverage Results" MODIFIED="1747821986703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
